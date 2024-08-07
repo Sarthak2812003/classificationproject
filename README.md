@@ -20,7 +20,7 @@ spectral features extracted are then connected to the 2D CNN
 which bring out the spatial features, thereby creating a spatialspectral
 feature vector for classification. Overall a better model
 is achieved that can classify multi-resolution HSI data with
-high accuracy. Experiments performed with SpectralNET on
+high accuracy. Experiments performed on
 benchmark dataset, i.e. Indian Pines, University of Pavia, and
 Salinas Scenes confirm the superiority of proposed SpectralNET
 with respect to the state-of-the-art methods.
