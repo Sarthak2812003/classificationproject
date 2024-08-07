@@ -12,8 +12,7 @@ heavy and are not widely used, while 2D CNNs do not consider
 multi-resolution processing of images, and only limits itself to
 the spatial features. Even though 3D-2D CNNs try to model the
 spectral and spatial features their performance seems limited
-when applied over multiple dataset. In this article, we propose
-SpectralNET, a wavelet CNN, which is a variation of 2D CNN
+when applied over multiple dataset. In this article, a wavelet CNN, which is a variation of 2D CNN
 for multi-resolution HSI classification. A wavelet CNN uses layers
 of wavelet transform to bring out spectral features. Computing
 a wavelet transform is lighter than computing 3D CNN. The
