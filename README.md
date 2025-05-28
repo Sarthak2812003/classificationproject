@@ -3,8 +3,7 @@
 ## Description
 Hyperspectral Image (HSI) classification using Convolutional
 Neural Networks (CNN) is widely found in the current
-literature. Approaches vary from using SVMs to 2D CNNs,
-3D CNNs, 3D-2D CNNs, FuSENets. Besides 3D-2D CNNs and
+literature. Besides 3D-2D CNNs and
 FuSENet, the other approaches do not consider both the spectral
 and spatial features together for HSI classification task, thereby
 resulting in poor performances. 3D CNNs are computationally
@@ -28,7 +27,7 @@ with respect to the state-of-the-art methods.
 
 ## Model
 
-<img src="figure/Architecture.svg"/>
+<img src="wavelet_cnn_0.5.png"/>
 
 Fig: Proposed SpectralNet (Wavelet CNN) Model for hyperspectral image (HSI) classification.
 
@@ -37,16 +36,6 @@ Fig: Proposed SpectralNet (Wavelet CNN) Model for hyperspectral image (HSI) clas
 - [Anaconda 4.8.3](https://www.anaconda.com/download/#linux)
 - [Tensorflow 2.3.0](https://github.com/tensorflow/tensorflow/tree/r2.4)
 - [Keras 2.4.3](https://github.com/fchollet/keras)
-
-## Results
-
-### Salinas Scene (SS) dataset
-
-<img src="figure/SA-FC.jpg"/> <img src="figure/SA-GT.jpg"/> <img src="figure/SA-Pr.jpg"/> <img src="figure/SA_legend.jpg" width="300" height="150"/>
-
-Fig.4  The SA dataset classification result (Overall Accuracy 100%) using 30% samples for training. (a) False color image. (b) Ground truth labels. (c) Classification map.
-
-   
 
 ## Acknowledgement
 https://github.com/gokriznastic/HybridSN  
